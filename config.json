@@ -1,0 +1,5 @@
+{
+  "geocodingApiKey": "",
+  "temperatureDecimalPrecision":  1,
+  "nwsUserAgent": "Node Current Temperature"
+}

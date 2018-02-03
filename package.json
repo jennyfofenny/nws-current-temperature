@@ -1,0 +1,43 @@
+{
+  "name": "nws-current",
+  "version": "0.1.0",
+  "description": "NWS-Current-Temperature is a library that provides functionality to obtain the current temperature in a location using zip code, city name, or address within the United States.",
+  "main": "index.js",
+  "scripts": {
+    "test": "snyk test && xo && ava",
+    "coverage": "coveralls"
+  },
+  "keywords": [
+    "nws",
+    "temperature",
+    "celsius",
+    "fahrenheit",
+    "conversion",
+    "geocoding",
+    "weather"
+  ],
+  "files": [
+    "index.js",
+    "config.json",
+    "lib"
+  ],
+  "author": "Jennifer Rogers",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "coveralls": "^3.0.0",
+    "nyc": "^11.4.1",
+    "snyk": "^1.69.5",
+    "xo": "^0.18.2"
+  },
+  "xo": {
+    "rules": {
+      "xo/no-process-exit": "off",
+      "linebreak-style": "off",
+      "indent": [
+        "error",
+        2
+      ]
+    }
+  }
+}
