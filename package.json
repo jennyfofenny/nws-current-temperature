@@ -1,6 +1,6 @@
 {
   "name": "nws-current-temperature",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "NWS-Current-Temperature is a library that provides functionality to obtain the current temperature in a location using zip code, city name, or address within the United States.",
   "main": "index.js",
   "scripts": {

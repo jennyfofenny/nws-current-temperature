@@ -21,7 +21,7 @@ Use the [Google API Console](https://console.developers.google.com/flows/enablea
 
 ## Usage
 
-**nws-current-temperature** can be included as a reference.
+**nws-current-temperature** can be included as a reference in your Node.js application.
 
 ```
 const nwsCurrentTemperature = require('nws-current-temperature');
